@@ -25,14 +25,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; /* Esconde a parte de trás do card */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  backface-visibility: hidden; 
 }
 
 .flip-card-back {
-  transform: rotateY(180deg); /* Rotaciona o verso do card para que ele fique virado para trás inicialmente */
+  transform: rotateY(180deg);
 }
 
 
