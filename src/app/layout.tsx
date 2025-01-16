@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-gradient-to-tr from-[#060024] to-[#15007F] h-screen w-screen ${nunito.className} no-scrollbar`}
+        className={`antialiased bg-gradient-to-tr from-[#060024] to-[#15007F] h-screen w-screen ${nunito.className} no-scrollbar text-white`}
       >
         {children}
       </body>

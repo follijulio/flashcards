@@ -32,7 +32,6 @@
   transform: rotateY(180deg);
 }
 
-
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
