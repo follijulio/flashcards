@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { DeleteCookie, VerifyCookie } from "@/lib/hooks/useCookies";
+import { DrawerDemo } from "./ui/Drawer";
 
 const Page: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,10 +37,8 @@ const Page: React.FC = () => {
     router.push('/login')
   }
   return (
-    <div>
-      <button onClick={disconect}>
-        SAIR
-      </button>
+    <div className="">
+      <DrawerDemo />
     </div>
   );
 };
